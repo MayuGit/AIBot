@@ -1,0 +1,2 @@
+# This tells Ollama to base the new 'default' model on the gemma3n:latest model
+FROM gemma3n:latest

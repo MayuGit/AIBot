@@ -1,0 +1,8 @@
+# Python Virtual Environment
+myenv/
+
+# Other common Python files to ignore
+__pycache__/
+*.pyc
+.vscode/
+.env
