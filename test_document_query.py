@@ -63,6 +63,7 @@ def setup_rag_pipeline(doc_path: str, vector_db_dir: str):
         base_url=OLLAMA_BASE_URL
     )
 
+
     # 4. Create/Load Vector Store (Chroma)
     print(f"Creating vector store in {vector_db_dir}...")
     vectorstore = Chroma.from_documents(
