@@ -51,4 +51,4 @@ gr.ChatInterface(
     #undo_btn="Delete Last",
     #clear_btn="Clear History"
 ).launch(server_name="0.0.0.0", server_port=7860) 
-# '0.0.0.0' allows external access (from Docker) or use127.0.0.1
+# '0.0.0.0' allows external access (from Docker) or use 127.0.0.1
